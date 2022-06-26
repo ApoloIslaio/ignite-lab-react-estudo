@@ -41,7 +41,7 @@ export function Lesson(props: LessonProps) {
               'text-blue-500': !isActiveLesson
             })}>
               <CheckCircle size={20}/>
-              Conteúdo liberado
+              Conteúdo liberado!
             </span>
           ) : (
             <span className="text-sm text-orange-500 font-medium flex items-center gap-2">
